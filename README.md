@@ -100,7 +100,7 @@ qué parámetros esperan, qué deben responder, etc.
 ## 3. Objetivos de aprendizaje
 
 El objetivo principal de es aprender a construir una _interfaz web_ usando
-el _framework_ elegido (React, Angular o Vue). Todos estos frameworks de
+el _framework_ elegido (React o Vue). Todos estos frameworks de
 Front-end tratan de solucionar el mismo problema: **cómo mantener la interfaz
 y el estado sincronizados**. Así que esta experiencia espera familiarizarte con
 el concepto de _estado de pantalla_, y como cada cambio sobre el estado se va
@@ -129,9 +129,8 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 ### Git y GitHub
 
 * [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+* [ ] Manejo de repositorios de GitHub (clone | fork)
 * [ ] Colaboración en Github (branches | pull requests | |tags)
-* [ ] Organización en Github (projects | issues | labels | milestones)
 
 ### HTTP
 
@@ -183,7 +182,7 @@ a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 ## 4. Consideraciones
 
 Este proyecto se debe "resolver" de a pares. Recuerda que deberas de consumir una
-API que desarrollaran tus compañeras, sin embargo no debes esperar a que esta API
+API que desarrollaran tus compañeros/as, sin embargo no debes esperar a que esta API
 este terminada para empezar a codear, puedes utilizar herramientas
 como [nock](https://github.com/nock/nock), [json-server](https://www.npmjs.com/package/json-server)
 o [mockoon](https://mockoon.com) para mockear la API.
@@ -196,7 +195,7 @@ La lógica del proyecto debe estar implementada completamente en JavaScript
 
 En este proyecto Sí está permitido usar librerías o frameworks
 (debes elegir entre [React](https://reactjs.org/) o
-[Angular](https://angular.io/)).
+[Vue](https://vuejs.org/)).
 
 La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
 _tablet_, pero **no queremos una app nativa**, sino una web app que sea
@@ -248,16 +247,14 @@ Lo que debe ocurrir para que se satisfagan las necesidades del usuario.
 
 Lo acordado que debe ocurrir para decir que la historia está terminada.
 
-* Debes haber recibido _code review_ de al menos una compañera.
 * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
 ***
 
 #### [Historia de usuario 2] Mesero/a debe poder tomar pedido de cliente/a
 
-Yo como meserx quiero tomar el pedido de unx clientx para no depender de mi mala
+Yo como mesero/a quiero tomar el pedido de un/a cliente para no depender de mi mala
 memoria, para saber cuánto cobrar, y enviarlo a la cocina para evitar errores y
 que se puedan ir preparando en orden.
 
@@ -265,7 +262,7 @@ que se puedan ir preparando en orden.
 
 Lo que debe ocurrir para que se satisfagan las necesidades del usuario
 
-* Anotar nombre de clientx.
+* Anotar nombre de cliente.
 * Agregar productos al pedido.
 * Eliminar productos.
 * Ver resumen y el total de la compra.
@@ -276,18 +273,16 @@ Lo que debe ocurrir para que se satisfagan las necesidades del usuario
 
 Lo acordado que debe ocurrir para decir que la historia está terminada.
 
-* Debes haber recibido _code review_ de al menos una compañera.
 * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
 ***
 
 #### [Historia de usuario 3] Jefe de cocina debe ver los pedidos
 
-Yo como jefx de cocina quiero ver los pedidos de lxs clientxs en orden y
-marcar cuáles están listos para saber qué se debe cocinar y avisar a lxs meserxs
-que un pedido está listo para servirlo a un clientx.
+Yo como jefe/a de cocina quiero ver los pedidos de los clientes en orden y
+marcar cuáles están listos para saber qué se debe cocinar y avisar a los meseros
+que un pedido está listo para servirlo a un cliente.
 
 ##### Criterios de aceptación
 
@@ -298,14 +293,12 @@ que un pedido está listo para servirlo a un clientx.
 
 ##### Definición de terminado
 
-* Debes haber recibido _code review_ de al menos una compañera.
 * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
 ***
 
-#### [Historia de usuario 4] Meserx debe ver pedidos listos para servir
+#### [Historia de usuario 4] Mesero/a debe ver pedidos listos para servir
 
 Yo como meserx quiero ver los pedidos que están preparados para entregarlos
 rápidamente a lxs clientxs que las hicieron.
@@ -317,54 +310,10 @@ rápidamente a lxs clientxs que las hicieron.
 
 ##### Definición de terminado
 
-* Debes haber recibido _code review_ de al menos una compañera.
 * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 * Los datos se deben mantener íntegros, incluso después de que un pedido ha
   terminado. Todo esto para poder tener estadísticas en el futuro.
-
-***
-
-#### [Historia de usuario 5] Administrador(a) de tienda debe administrar a sus trabajadorxs
-
-Yo como administrador(a) de tienda quiero gestionar a los usuarios de
-la plataforma para mantener actualizado la informacion de mis trabajadorxs.
-
-##### Criterios de aceptación
-
-* Ver listado de trabajadorxs.
-* Agregar trabajadorxs.
-* Eliminar trabajadoxs.
-* Actualizar datos de trabajadorxs.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
-***
-
-#### [Historia de usuario 6] Administrador(a) de tienda debe administrar a sus productos
-
-Yo como administrador(a) de tienda quiero gestionar los productos
-para mantener actualizado el menú.
-
-##### Criterios de aceptación
-
-* Ver listado de productos.
-* Agregar productos.
-* Eliminar productos.
-* Actualizar datos de productos.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
 ***
 
@@ -373,7 +322,7 @@ para mantener actualizado el menú.
 ### Frameworks / libraries
 
 * [React](https://reactjs.org/)
-* [Angular](https://angular.io/)
+* [Vue](https://vuejs.org/)
 
 ### Herramientas
 
