@@ -1,4 +1,4 @@
-# Burger Queen (API Client)
+# Esquina Caliente
 
 ## Índice
 
@@ -52,7 +52,7 @@ en los que primero hay que asegurarse de cumplir con lo requerido.
 
 Esta es la información que tenemos dxl clientx:
 
-> Somos **Burguer Queen**, una cadena de comida 24hrs.
+> Somos **Esquina Caliente**, una cadena de comida 24hrs.
 >
 > Nuestra propuesta de servicio 24hrs ha tenido muy buena acogida y, para
 > seguir creciendo, necesitamos un sistema que nos ayude a tomar los pedidos de
