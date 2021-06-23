@@ -8,6 +8,7 @@
 * [4. Consideraciones](#4-consideraciones)
 * [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
 * [6. Pistas / tips](#6-pistas--tips)
+* [7. Entrega](#7-entrega)
 
 ***
 
@@ -338,3 +339,14 @@ rápidamente a lxs clientxs que las hicieron.
 * [Tu primera Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
 * [Progressive Web Apps - codigofacilito.com](https://codigofacilito.com/articulos/progressive-apps)
 * [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
+
+## 7. Entrega
+* Recomendamos emplear un máximo de 4 (cuatro) horas y enviar todo lo que puedas.
+* Se requiere de una cuenta de GitHub para realizar este ejercicio.
+Antes de comenzar a programar:
+* Realizar un Fork de este repositorio (https://github.com/Megabite-Food/frontend-test).
+* Clonar el fork a su máquina local git clone git@github.com:USERNAME/FORKED-PROJECT.git
+* Crear un branch en su cuenta de GitHub utilizando su nombre completo.
+Al finalizar, existen 2 (dos) opciones para entregar su proyecto:
+- Realizar un Commit de su proyecto, enviar un Pull Request al branch con su NOMBRE, y notificar a la siguiente dirección de correo electrónico lespinoza@megabitefood.com.
+- Crear un archivo comprimido (.zip o .rar) de su proyecto y enviar a la siguiente dirección de correo electrónico lespinoza@megabitefood.com con asunto: [nombre]_[apellido]-resultado test [cargo]
